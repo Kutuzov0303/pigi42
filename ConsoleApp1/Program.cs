@@ -58,6 +58,10 @@
                             case 4:
                                 result = A * B;
                                 break;
+                            case 5:
+                                result = A / B;
+                                Console.WriteLine(result);
+                                break;
                         }
 
                         break;
