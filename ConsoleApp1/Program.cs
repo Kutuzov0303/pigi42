@@ -36,7 +36,10 @@
                             case 6:
                                 Console.WriteLine("Выход");
                                 return;
-                           
+                            case 5:
+                                result = A / B;
+                                Console.WriteLine(result);
+                                break;
                         }
 
                         break;
