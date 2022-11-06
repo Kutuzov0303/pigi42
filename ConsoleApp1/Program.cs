@@ -51,7 +51,7 @@
                 if (i == index)
                 {
                     Console.BackgroundColor = Console.ForegroundColor;
-                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
                 }
                 Console.WriteLine(items[i]);
                 Console.ResetColor();
