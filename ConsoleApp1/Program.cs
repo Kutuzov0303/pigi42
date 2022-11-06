@@ -36,6 +36,11 @@
                             case 6:
                                 Console.WriteLine("Выход");
                                 return;
+                            case 1:
+                                Console.Write("Введите B: ");
+                                B = Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine(B);
+                                break;
                         }
 
                         break;
