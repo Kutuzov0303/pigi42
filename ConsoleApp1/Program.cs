@@ -47,6 +47,10 @@
                                 B = Convert.ToInt32(Console.ReadLine());
                                 Console.WriteLine(B);
                                 break;
+                            case 2:
+                                result = A + B;
+                                Console.WriteLine(result);
+                                break;
                         }
 
                         break;
