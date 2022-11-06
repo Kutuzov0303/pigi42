@@ -36,6 +36,12 @@
                             case 6:
                                 Console.WriteLine("Выход");
                                 return;
+                            case 0:
+                                Console.WriteLine("Введите А:");
+                                A = Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine(A);
+                                break;
+
                         }
 
                         break;
@@ -51,7 +57,7 @@
                 if (i == index)
                 {
                     Console.BackgroundColor = Console.ForegroundColor;
-                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
                 }
                 Console.WriteLine(items[i]);
                 Console.ResetColor();
