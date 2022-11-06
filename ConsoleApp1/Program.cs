@@ -55,6 +55,9 @@
                                 result = A - B;
                                 Console.WriteLine(result);
                                 break;
+                            case 4:
+                                result = A * B;
+                                break;
                         }
 
                         break;
