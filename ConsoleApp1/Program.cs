@@ -36,20 +36,17 @@
                             case 6:
                                 Console.WriteLine("Выход");
                                 return;
-<<<<<<< HEAD
                             case 0:
                                 Console.WriteLine("Введите А:");
                                 A = Convert.ToInt32(Console.ReadLine());
                                 Console.WriteLine(A);
                                 break;
 
-=======
                             case 1:
                                 Console.Write("Введите B: ");
                                 B = Convert.ToInt32(Console.ReadLine());
                                 Console.WriteLine(B);
                                 break;
->>>>>>> fbc9df9 (B)
                         }
 
                         break;
