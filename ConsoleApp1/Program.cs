@@ -50,6 +50,8 @@
                                 break;
                             case 2:
                                 result = A + B;
+                                Console.WriteLine(result);
+                                
                                 break;
                             case 3:
                                 result = A - B;
