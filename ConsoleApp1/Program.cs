@@ -48,7 +48,7 @@
                                 Console.WriteLine(B);
                                 break;
                             case 2:
-                                result = A + B;
+                                result = A - B;
                                 Console.WriteLine(result);
                                 break;
                         }
