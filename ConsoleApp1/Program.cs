@@ -70,6 +70,7 @@
                         break;
                 }
             }
+            Console.WriteLine("mama");
         }
 
         private static void DrawMenu(string[] items, int row, int col, int index, int result)
